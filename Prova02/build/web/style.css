@@ -1,0 +1,255 @@
+h1{
+    font-family: verdana;
+    font-size: 22pt;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#banner{
+    position: absolute;
+    left: 12%;
+    top: 0px;
+    height: 75px;
+    width: 88%;
+    box-shadow: 0px 6px 6px #666666;
+    background-color: #006600;
+}
+
+#logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#logo{
+    position: absolute;
+    top: 0px;
+    height: 75px;
+    width: 12%;
+    background-color: #003300;
+    box-shadow: 0px 6px 6px #666666;
+}
+
+
+#menu{
+    position: absolute;
+    top: 75px;
+    width: 12%;
+    height: 92%;
+    background-color: #99ff99;
+}
+
+
+#conteudo  {
+    position: absolute;
+    left: 14%;
+    top: 75px;
+    width: 86%;
+    height: 28%;
+
+    font-family: arial;
+    font-size: 14pt;
+}
+
+
+#rodape{
+    position: absolute;
+    top: 268px;
+    left: 190px;
+
+    width: 88%;
+    height: 75px;
+    box-shadow: 0px 6px 6px #666666;
+
+    border-color: #666666;
+    border-width: 2px;
+    border-style: solid;
+}
+
+
+#principal{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#menu ul.itens a{  
+    color: dimgrey;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+li{
+    list-style: none;
+}
+
+i.fa.fa-home {
+    top: 50px;
+    position: absolute; 
+    font-size: x-large;
+    right: 20px;
+}
+
+i.fas.fa-sign-out-alt{
+    top: 10px;
+    position: absolute; 
+    font-size: medium;
+    right: 20px;
+
+}
+
+i{
+    font-size: medium;
+    position: relative;
+    color: red;
+}
+
+.input-pesquisa{
+    position: absolute;
+    left: 0px;
+    top: 150px;
+    width: 600px;
+    height: 26px;
+}
+
+.label-pesquisa{
+    position: relative;
+    top: 10px;
+
+}
+
+.bt-filtro{
+    background-color: #fff;
+    color: #006600;
+    border-color: #006600;
+    border-radius: 3px ;  
+    position: absolute;
+    top: 105px;
+    right: 630px;
+    width: 90px;
+    height: 38px;
+}
+
+.bt-filtro:hover{
+    background-color: rgba(46, 216, 117, 0.123);
+    color: #000;
+
+}
+
+.bt-inserir{
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    width: 90px;
+    height: 38px;
+}
+
+.bt-atualizar{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    width: 90px;
+    height: 38px;
+}
+
+.bt-excluir{
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    width: 90px;
+    height: 38px;
+}
+
+.bt-cancelar{
+    position: absolute;
+    left: 395px;
+    top: 525px;
+    width: 90px;
+    height: 38px;
+
+}
+
+button{
+    background-color:  #3399ff;
+    border-radius: 3px;
+    -webkit-transition-duration: 0.4s ;
+    transition-duration: 0.4s;
+    border-color: #3399ff;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+#rodape-crud{
+    position: absolute;
+    top: 338px;
+    left: 190px;
+
+    width: 88%;
+    height: 75px;
+    box-shadow: 0px 6px 6px #666666;
+
+    border-color: #666666;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+#rodape-inserir{
+    position: absolute;
+    top: 655px;
+    left: 190px;
+
+    width: 88%;
+    height: 75px;
+    box-shadow: 0px 6px 6px #666666;
+
+    border-color: #666666;
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+#conteudo-formulario{
+    position: absolute;
+    top: 76px;
+    right: 500px;
+    width: 50%;
+}
+
+.bt-formulario{
+    position: absolute;
+    left: 300px;
+    top: 525px;
+    width: 90px;
+    height: 38px;
+    
+    background-color:  #3399ff;
+    border-radius: 3px;
+    -webkit-transition-duration: 0.4s ;
+    transition-duration: 0.4s;
+    border-color: #3399ff;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.bt-formulario:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.lista-consulta {
+    position: relative;
+    top: 100px;
+}

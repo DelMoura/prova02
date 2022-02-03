@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+        <title>FormularioUnidade</title>
+    </head>
+
+    <body>
+
+        <div id="principal">
+
+            <div id="banner"><i class="fas fa-sign-out-alt"></i></div>
+
+            <div id="logo">
+                <img src="images/logo.png" alt="logo do Instituto Federal" />
+            </div>
+
+
+            <div id="menu">
+                <ul class="itens">
+                    <li><a href="index.html"><i class="fas fa-align-justify"></i></i> Home</a></li><br><br>
+                    <li><a href="crud.html"><i class="fas fa-address-card"></i> CRUD 1</a></li><br><br>
+                    <li><a href="crud2.html"><i class="fas fa-address-card"></i> CRUD 2</a></li><br><br>
+                </ul>
+            </div>
+
+            <div id="conteudo-formulario">
+
+                <h1>CRUD 1</h1>
+                <hr>
+
+                <form class="formulario" action="inserirProcesso" method="post">
+
+                    <fieldset class="formulario-borda">
+                        <legend>Unidade</legend>
+                        <label for="cnpj">CNPJ:</label>
+                        <input class="campo-cnpj" type="text" name="cnpj" id="cnpj" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="nome">Nome:</label>
+                        <input class="campo-nome" type="text" name="nome" id="nome" size="35" maxlength="100"><br>
+                        <br> 
+                        <label for="logradouro">Logradouro:</label>
+                        <input class="campo-logradoura"  type="text" name="logradouro" id="logradouro" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="numero">Número:</label>
+                        <input class="campo-numero" type="text" name="numero" id="numero" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="complemento">Complemento:</label>
+                        <input class="campo-cmplemento" type="text" name="complemento" id="complemento" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="bairro">Bairro:</label>
+                        <input class="campo-bairro" type="text" name="bairro" id="bairro" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="cep">CEP:</label>
+                        <input class="campo-cep" type="text" name="cep" id="cep" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="telefone">Telefone:</label>
+                        <input class="campo-telefone" type="text" name="telefone" id="telefone" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="email">E-mail:</label>
+                        <input class="campo-email" type="text" name="email" id="email" size="35" maxlength="100"><br>
+                        <br>
+                        <label for="microregiao">Microregião:</label>
+                        <input class="campo-microregiao" type="text" name="microregiao" id="microregiao" size="35" maxlength="100"><br>
+                        <br>
+
+                        <input class="bt-formulario" type="submit" value="Salvar"> 
+
+                    </fieldset>
+
+                </form>
+
+                <a href="consultaProcesso"><button class="bt-cancelar">Cancelar</button></a>
+
+
+            </div>
+
+            <div id="rodape-inserir">
+
+                <a href="index.html"><i class="fa fa-home"></i></a>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
